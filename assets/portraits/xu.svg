@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" role="img" aria-labelledby="title desc">
+  <title id="title">许澄角色肖像</title>
+  <desc id="desc">年轻男生穿深蓝色外套，表情克制而紧张，像刚刚结束一场采访。</desc>
+  <defs>
+    <linearGradient id="bgx" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#382b25"/>
+      <stop offset=".55" stop-color="#73563e"/>
+      <stop offset="1" stop-color="#132f31"/>
+    </linearGradient>
+    <linearGradient id="skinx" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e4bea1"/>
+      <stop offset="1" stop-color="#bc8268"/>
+    </linearGradient>
+    <linearGradient id="jacketx" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2e5556"/>
+      <stop offset="1" stop-color="#102b2f"/>
+    </linearGradient>
+    <pattern id="gridx" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#f1e7d0" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="softx"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <rect width="600" height="760" fill="url(#bgx)"/>
+  <rect width="600" height="760" fill="url(#gridx)"/>
+  <circle cx="120" cy="140" r="120" fill="#e6be72" opacity=".18" filter="url(#softx)"/>
+  <path d="M0 560 600 486v274H0Z" fill="#0b2224" opacity=".64"/>
+  <path d="M46 760c21-139 108-217 253-228 142 5 228 78 254 228Z" fill="url(#jacketx)"/>
+  <path d="M249 493h102l8 112-57 83-66-76Z" fill="#bd866d"/>
+  <path d="M196 235c11-78 70-124 145-111 79 14 120 80 102 164-8 38-31 77-68 101-46 30-98 21-132-19-36-44-56-83-47-135Z" fill="url(#skinx)"/>
+  <path d="M185 235c19-97 92-149 174-112 46 21 78 65 83 116-40-15-62-42-75-84-34 35-84 59-151 72-1 53-10 86-31 111-11-32-16-68 0-103Z" fill="#222124"/>
+  <path d="M195 203c-24 38-20 84 2 120l-22 27c-26-41-25-95 7-145Z" fill="#222124"/>
+  <path d="M408 204c15 44 8 89-12 124l19 19c19-39 23-84 10-130Z" fill="#222124"/>
+  <path d="M235 269c16-11 36-12 55-2" fill="none" stroke="#633c34" stroke-width="7" stroke-linecap="round"/>
+  <path d="M331 269c17-10 35-9 50 1" fill="none" stroke="#633c34" stroke-width="7" stroke-linecap="round"/>
+  <path d="M241 305c12-8 28-7 40 2-12 12-28 12-40-2Z" fill="#1b282a"/>
+  <path d="M337 306c12-8 27-7 38 1-10 12-25 12-38-1Z" fill="#1b282a"/>
+  <circle cx="261" cy="306" r="3" fill="#f0e7d6"/>
+  <circle cx="357" cy="306" r="3" fill="#f0e7d6"/>
+  <path d="M296 300c-4 31-2 55 5 67 8 5 18 4 27-1" fill="none" stroke="#9f6859" stroke-width="5" stroke-linecap="round"/>
+  <path d="M262 399c25 10 53 10 78-2-17 25-59 30-78 2Z" fill="#834044"/>
+  <path d="M274 402c18 5 34 5 49 0" fill="none" stroke="#d3988d" stroke-width="3"/>
+  <path d="M201 532c38-26 70-31 105-17l-13 89-103 7Z" fill="#ded6c3"/>
+  <path d="M388 535c-35-27-68-33-105-19l13 88 102 13Z" fill="#ded6c3"/>
+  <path d="M186 579c-17 55-14 116 10 181h131l-35-166-60-65Z" fill="url(#jacketx)"/>
+  <path d="M408 579c19 56 14 117-12 181H268l32-163 63-68Z" fill="url(#jacketx)"/>
+  <path d="M269 501c-12 56-17 106-8 128 14-17 22-44 24-80l10-48Z" fill="#8d5e4f" opacity=".8"/>
+  <path d="M309 493c11 47 24 80 40 100 2-41-8-80-31-116Z" fill="#8d5e4f" opacity=".8"/>
+  <path d="M243 566c31 13 63 14 94 1" fill="none" stroke="#89aaa1" stroke-width="2" opacity=".55"/>
+  <path d="M318 537c23 41 28 89 15 144" fill="none" stroke="#a8d0c0" stroke-width="3" opacity=".55"/>
+  <circle cx="427" cy="245" r="8" fill="#c5a96e"/>
+  <path d="M427 253c-2 21 7 34 23 45" fill="none" stroke="#d2b47a" stroke-width="3"/>
+  <path d="M80 125h94M80 138h60" stroke="#f1e7d0" stroke-opacity=".3"/>
+  <path d="M447 661c30-20 59-39 84-69" stroke="#cc8064" stroke-width="2" opacity=".48"/>
+</svg>

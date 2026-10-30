@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" role="img" aria-labelledby="title desc">
+  <title id="title">梁恪角色肖像</title>
+  <desc id="desc">戴眼镜的男性设备管理员穿灰蓝色工装，表情谨慎。</desc>
+  <defs>
+    <linearGradient id="bgl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#243331"/>
+      <stop offset=".5" stop-color="#5c5847"/>
+      <stop offset="1" stop-color="#101f21"/>
+    </linearGradient>
+    <linearGradient id="skinl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9b79c"/>
+      <stop offset="1" stop-color="#b4816a"/>
+    </linearGradient>
+    <linearGradient id="shirtl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#536765"/>
+      <stop offset="1" stop-color="#273b3d"/>
+    </linearGradient>
+    <pattern id="gridl" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#f3ead5" stroke-opacity=".06"/>
+    </pattern>
+    <filter id="softl"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="600" height="760" fill="url(#bgl)"/>
+  <rect width="600" height="760" fill="url(#gridl)"/>
+  <circle cx="470" cy="150" r="116" fill="#d1bc82" opacity=".16" filter="url(#softl)"/>
+  <path d="M0 612 600 478v282H0Z" fill="#0b1d1f" opacity=".6"/>
+  <path d="M38 760c16-139 106-225 256-232 151 4 244 84 268 232Z" fill="url(#shirtl)"/>
+  <path d="M247 500h106l4 100-58 82-64-75Z" fill="#ad7f69"/>
+  <path d="M185 238c7-91 69-142 150-129 84 14 129 78 118 168-7 62-43 108-96 128-58 21-111-4-141-53-23-37-35-76-31-114Z" fill="url(#skinl)"/>
+  <path d="M185 232c8-88 64-141 146-139 49 1 89 24 116 63-29-10-60-9-93 3-39 14-78 38-122 58-12 44-23 72-47 90-8-22-8-48 0-75Z" fill="#29282a"/>
+  <path d="M193 204c-15 42-12 84 10 123l-18 25c-20-46-19-98 8-148Z" fill="#29282a"/>
+  <path d="M392 196c18 32 25 70 18 113l17 14c12-48 4-94-22-136Z" fill="#29282a"/>
+  <path d="M228 291c18-8 39-6 56 5" fill="none" stroke="#5f3b34" stroke-width="7" stroke-linecap="round"/>
+  <path d="M330 294c18-10 39-8 55 4" fill="none" stroke="#5f3b34" stroke-width="7" stroke-linecap="round"/>
+  <g fill="none" stroke="#293536" stroke-width="5">
+    <rect x="224" y="304" width="70" height="51" rx="16"/>
+    <rect x="326" y="306" width="68" height="50" rx="16"/>
+    <path d="M294 322h32M224 320l-17-7M394 319l16-8"/>
+  </g>
+  <path d="M244 325c9-6 23-6 33 0-10 11-24 11-33 0Z" fill="#1d292b"/>
+  <path d="M345 327c9-6 22-6 31 0-9 10-22 10-31 0Z" fill="#1d292b"/>
+  <circle cx="261" cy="327" r="3" fill="#f0ead8"/>
+  <circle cx="361" cy="328" r="3" fill="#f0ead8"/>
+  <path d="M299 309c-5 30-4 57 4 72 7 7 19 7 27 2" fill="none" stroke="#946554" stroke-width="5" stroke-linecap="round"/>
+  <path d="M267 407c21 9 45 9 68 0-16 19-49 22-68 0Z" fill="#7d4440"/>
+  <path d="M238 411c18 30 62 39 100 12" fill="none" stroke="#8c665b" stroke-width="3" opacity=".55"/>
+  <path d="M250 397c-1 34-15 60-42 78M351 398c4 28 16 51 39 68" fill="none" stroke="#a9826e" stroke-width="6" opacity=".45"/>
+  <path d="M198 542c36-28 73-35 108-16l-8 84-108 8Z" fill="#d8d2c1"/>
+  <path d="M390 543c-35-26-72-32-106-15l8 83 108 11Z" fill="#d8d2c1"/>
+  <path d="M187 594c-13 49-8 105 16 166h124l-33-162-64-70Z" fill="url(#shirtl)"/>
+  <path d="M413 594c14 51 8 106-18 166H269l32-160 68-72Z" fill="url(#shirtl)"/>
+  <path d="M304 524v127l-18 109h39l6-178 11 178h39l-17-109v-127Z" fill="#31484a" opacity=".42"/>
+  <path d="M213 638h67v23h-67zM330 638h67v23h-67z" fill="#8b9b91" opacity=".36"/>
+  <path d="M244 665h26v15h-26zM340 665h23v15h-23z" fill="#d2be84" opacity=".48"/>
+  <path d="M75 117h93M75 130h58" stroke="#f3ead5" stroke-opacity=".3"/>
+  <path d="M475 630c-41 19-87 25-138 18" stroke="#c8a767" stroke-width="2" opacity=".4"/>
+</svg>

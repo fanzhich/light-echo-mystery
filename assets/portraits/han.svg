@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" role="img" aria-labelledby="title desc">
+  <title id="title">韩梅角色肖像</title>
+  <desc id="desc">穿米色保洁工服的女性，头发挽成发髻，神情亲切。</desc>
+  <defs>
+    <linearGradient id="bghan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#263637"/><stop offset=".55" stop-color="#6b5543"/><stop offset="1" stop-color="#152124"/></linearGradient>
+    <linearGradient id="skinhan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dfbaa0"/><stop offset="1" stop-color="#b77f68"/></linearGradient>
+    <pattern id="gridhan" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M35 0H0V35" fill="none" stroke="#efe7d2" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="600" height="760" fill="url(#bghan)"/><rect width="600" height="760" fill="url(#gridhan)"/>
+  <path d="M0 610 600 487v273H0Z" fill="#102023" opacity=".6"/>
+  <path d="M34 760c23-142 118-222 268-231 151 7 245 84 267 231Z" fill="#6a675c"/>
+  <path d="M250 503h101l6 100-56 78-61-73Z" fill="#b78068"/>
+  <path d="M190 238c7-88 72-140 151-128 81 12 127 80 113 162-10 61-51 105-108 123-64 18-119-8-142-60-15-33-19-67-14-97Z" fill="url(#skinhan)"/>
+  <path d="M186 231c16-94 91-147 174-117 42 15 75 47 89 91-32-16-64-24-96-24-51 0-93 13-126 40-13 33-27 56-49 70-2-21 1-41 8-60Z" fill="#252427"/>
+  <ellipse cx="171" cy="266" rx="27" ry="40" fill="#252427"/>
+  <ellipse cx="425" cy="266" rx="25" ry="38" fill="#252427"/>
+  <path d="M231 275c17-9 39-8 57 1M331 276c18-9 39-8 55 2" fill="none" stroke="#643b34" stroke-width="7" stroke-linecap="round"/>
+  <path d="M241 310c11-8 28-7 41 1-11 12-28 12-41-1ZM340 312c11-8 27-7 39 1-10 11-26 11-39-1Z" fill="#1c282a"/>
+  <circle cx="261" cy="311" r="3" fill="#ece4d2"/><circle cx="360" cy="313" r="3" fill="#ece4d2"/>
+  <path d="M298 306c-5 30-3 55 4 69 8 5 18 4 27-2" fill="none" stroke="#9c6757" stroke-width="5" stroke-linecap="round"/>
+  <path d="M263 399c20 14 43 14 66 1-15 24-52 26-66-1Z" fill="#8c4d4c"/>
+  <path d="M271 402c16 7 34 7 48 0" fill="none" stroke="#d69a8e" stroke-width="3"/>
+  <path d="M205 536c35-24 70-28 104-14l-9 88-111 7Z" fill="#e1d9c7"/>
+  <path d="M388 537c-33-24-68-28-101-14l10 87 109 11Z" fill="#e1d9c7"/>
+  <path d="M192 588c-14 48-8 105 16 172h126l-32-159-65-73Z" fill="#c7bba4"/>
+  <path d="M405 588c16 51 10 109-16 172H266l31-157 66-76Z" fill="#c7bba4"/>
+  <path d="M229 655h57v23h-57zM323 655h57v23h-57z" fill="#6d7a70" opacity=".38"/>
+  <path d="M301 525v142" stroke="#8b8172" stroke-width="2"/>
+  <path d="M88 123h92M88 136h55" stroke="#efe7d2" stroke-opacity=".3"/>
+  <path d="M477 646c-57 23-118 29-183 17" stroke="#cba56d" stroke-width="2" opacity=".42"/>
+</svg>

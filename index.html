@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="《光屿回声》——以中原科技学院校园为灵感的单机互动剧情推理小游戏。"
+    />
+    <meta name="theme-color" content="#071116" />
+    <title>光屿回声 · 校园剧情推理</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <noscript>
+      <main class="noscript">本游戏需要启用 JavaScript 才能开始调查。</main>
+    </noscript>
+
+    <section class="landing" id="landing" aria-labelledby="landing-title">
+      <div class="landing-grid" aria-hidden="true"></div>
+      <header class="landing-header">
+        <a class="brand" href="#" aria-label="光屿回声首页">
+          <span class="brand-mark">ZY</span>
+          <span>
+            <strong>光屿回声</strong>
+            <small>CAMPUS STORY · 01</small>
+          </span>
+        </a>
+        <p class="case-number">CASE FILE<br /><b>17:47</b></p>
+      </header>
+
+      <div class="landing-main">
+        <article class="cover-copy">
+          <p class="eyebrow"><span></span> 校园剧情推理档案</p>
+          <h1 id="landing-title">
+            光屿
+            <em>回声</em>
+          </h1>
+          <p class="cover-en">LIGHT AFTER<br />THE LAST REHEARSAL</p>
+          <p class="cover-lead">
+            开演前的最后一次试灯，主展装置只亮起了十二秒。
+            作品的核心模块不翼而飞，四个人都说那只是创作分歧——
+            但青春里最难还原的，从来不是一场停电。
+          </p>
+          <div class="cover-actions">
+            <button class="primary-action" id="start-game" type="button">
+              <span id="start-label">进入调查</span>
+              <span aria-hidden="true">↗</span>
+            </button>
+            <button class="text-action" id="intro-button" type="button">
+              新手教程
+            </button>
+            <button class="text-action" id="landing-ai-button" type="button">
+              AI 立绘工坊
+            </button>
+          </div>
+          <ul class="cover-meta" aria-label="游戏信息">
+            <li><span>01</span>四角色视角</li>
+            <li><span>02</span>约 30 分钟 / 角色</li>
+            <li><span>03</span>自动存档</li>
+          </ul>
+        </article>
+
+        <aside class="cover-file" aria-label="创作事件摘要">
+          <div class="file-ribbon">CAMPUS STORY</div>
+          <div class="file-photo">
+            <div class="photo-glow"></div>
+            <div class="building-lines" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <p>原初楼<br /><small>YUANCHU BUILDING · EXHIBITION</small></p>
+            <span class="photo-time">17:47:16</span>
+          </div>
+          <dl class="file-data">
+            <div><dt>失踪作品</dt><dd>《光屿》核心模块</dd></div>
+            <div><dt>地点</dt><dd>原初书院 · 光影工坊</dd></div>
+            <div><dt>展演时间</dt><dd>18:30 正式开灯</dd></div>
+            <div><dt>待解问题</dt><dd class="danger">作品去哪了？</dd></div>
+          </dl>
+          <p class="file-note">
+            本作以中原科技学院校园实景为灵感，人物、事件与具体情节均为虚构，
+            不代表任何真实师生或现实事件。
+          </p>
+        </aside>
+      </div>
+
+      <footer class="landing-footer">
+        <span>校园创作档案 / NO. 2026-10</span>
+        <span>4 个角色本 · 剧情推理 · 自动存档</span>
+        <button id="landing-sound" type="button" aria-pressed="false">
+          声音 OFF
+        </button>
+      </footer>
+    </section>
+
+    <div class="game-shell" id="game-shell" hidden>
+      <header class="topbar">
+        <button class="topbar-brand" type="button" data-nav="overview">
+          <span class="brand-mark">ZY</span>
+          <span>
+            <strong>光屿回声</strong>
+            <small>校园剧情推理</small>
+          </span>
+        </button>
+        <div class="case-clock" aria-label="展演倒计时">
+          <span>距离开展</span>
+          <b id="case-clock">00:42:44</b>
+        </div>
+        <div class="topbar-actions">
+          <button class="icon-button" id="image-studio-button" type="button" aria-label="打开 AI 人物立绘工坊">
+            <span aria-hidden="true">AI</span>
+            <span class="button-label">立绘</span>
+          </button>
+          <button class="icon-button" id="tutorial-button" type="button" aria-label="打开新手教程">
+            <span aria-hidden="true">?</span>
+            <span class="button-label">教程</span>
+          </button>
+          <button class="icon-button" id="sound-toggle" type="button" aria-pressed="false">
+            <span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="button-label">声音</span>
+          </button>
+          <button class="icon-button" id="restart-button" type="button" aria-label="重新开始调查">
+            <span aria-hidden="true">↺</span>
+            <span class="button-label">重开</span>
+          </button>
+        </div>
+      </header>
+
+      <div class="game-layout">
+        <aside class="side-panel">
+          <nav class="case-nav" aria-label="剧情导航">
+            <button type="button" data-nav="overview" class="nav-item active">
+              <span>01</span>案情
+            </button>
+            <button type="button" data-nav="scenes" class="nav-item">
+              <span>02</span>现场
+            </button>
+            <button type="button" data-nav="people" class="nav-item">
+              <span>03</span>人物
+            </button>
+            <button type="button" data-nav="clues" class="nav-item">
+              <span>04</span>证物
+              <b id="clue-counter">0/6</b>
+            </button>
+            <button type="button" data-nav="deduction" class="nav-item">
+              <span>05</span>推演
+            </button>
+          </nav>
+
+          <div class="progress-block">
+            <div class="progress-head">
+              <span>调查进度</span>
+              <strong id="progress-value">0%</strong>
+            </div>
+            <div
+              class="progress-track"
+              role="progressbar"
+              aria-label="调查进度"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              aria-valuenow="0"
+            >
+              <i id="progress-bar"></i>
+            </div>
+            <p id="progress-copy">先从试灯现场开始。</p>
+          </div>
+
+          <blockquote id="rotating-quote">
+            “作品不只属于写下最后一个名字的人。”
+          </blockquote>
+        </aside>
+
+        <main id="main-content" tabindex="-1"></main>
+      </div>
+
+      <nav class="mobile-nav" aria-label="移动端剧情导航">
+        <button type="button" data-nav="overview" class="active"><span>01</span>案情</button>
+        <button type="button" data-nav="scenes"><span>02</span>现场</button>
+        <button type="button" data-nav="people"><span>03</span>人物</button>
+        <button type="button" data-nav="clues"><span>04</span>证物</button>
+        <button type="button" data-nav="deduction"><span>05</span>推演</button>
+      </nav>
+    </div>
+
+    <div class="modal-layer" id="modal-layer" hidden>
+      <button class="modal-backdrop" data-close-modal type="button" aria-label="关闭窗口"></button>
+      <section
+        class="modal-panel"
+        id="modal-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      ></section>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>

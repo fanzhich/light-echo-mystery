@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" role="img" aria-labelledby="title desc">
+  <title id="title">唐予安角色肖像</title>
+  <desc id="desc">短发女生穿深绿色外套，佩戴黄绿色工作牌，神情克制。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#153b3c"/>
+      <stop offset=".55" stop-color="#315957"/>
+      <stop offset="1" stop-color="#0b2427"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#44635b"/>
+      <stop offset="1" stop-color="#1c3735"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#e6c4a6"/>
+      <stop offset="1" stop-color="#c69376"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#d5dfd5" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="600" height="760" fill="url(#bg)"/>
+  <rect width="600" height="760" fill="url(#grid)"/>
+  <circle cx="475" cy="170" r="112" fill="#d9bd76" opacity=".2" filter="url(#soft)"/>
+  <path d="M0 606 600 442v318H0Z" fill="#081a1c" opacity=".55"/>
+  <path d="M68 760c12-155 97-231 228-236 142-5 228 72 248 236Z" fill="url(#coat)"/>
+  <path d="M248 514h103l17 104-70 75-72-72Z" fill="#c89678"/>
+  <path d="M236 505c-1-75 22-128 65-176 37-41 66-84 66-128-1-77-43-125-116-125-76 0-119 51-119 126 0 50 26 91 65 130 25 25 32 74 20 160Z" fill="#1b1d20"/>
+  <path d="M190 271c15-94 84-139 146-114 51 20 82 65 80 120-2 59-37 105-76 128-31 19-70 15-97-10-34-32-56-74-53-124Z" fill="url(#skin)"/>
+  <path d="M185 254c19-82 73-127 142-119-22 13-35 31-38 54 26-25 55-37 89-34-22 26-34 58-36 94-24-13-50-13-76-4-29 10-49 30-60 57-10-13-19-29-21-48Z" fill="#1d2022"/>
+  <path d="M153 250c-10 85 8 162 52 199l-24 63c-35-35-49-85-38-157Z" fill="#1d2022"/>
+  <path d="M422 244c24 79 8 153-30 199l19 61c34-37 46-89 34-159Z" fill="#1d2022"/>
+  <path d="M231 269c17-12 35-13 53-3" fill="none" stroke="#713c35" stroke-width="7" stroke-linecap="round"/>
+  <path d="M330 266c15-10 32-9 46 2" fill="none" stroke="#713c35" stroke-width="7" stroke-linecap="round"/>
+  <path d="M239 304c10-8 26-8 38 0-10 13-25 14-38 0Z" fill="#172326"/>
+  <path d="M335 303c10-7 24-7 35 1-9 12-23 12-35-1Z" fill="#172326"/>
+  <circle cx="258" cy="304" r="3.5" fill="#e8e2cf"/>
+  <circle cx="352" cy="304" r="3" fill="#e8e2cf"/>
+  <path d="M291 301c-2 30-10 55-7 66 5 8 15 9 25 3" fill="none" stroke="#a66f5e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M263 397c25 14 54 15 82 0-24 29-60 31-82 0Z" fill="#8f4c4d"/>
+  <path d="M273 400c19 8 41 8 60 0" fill="none" stroke="#d89d91" stroke-width="3"/>
+  <path d="M213 519c34-20 65-24 102-15l-22 85-97-18Z" fill="#e6dfcc"/>
+  <path d="M386 519c-32-20-62-24-97-15l18 84 96-20Z" fill="#e6dfcc"/>
+  <path d="M218 632c28 9 53 8 75-4l9 132H166Z" fill="#264743"/>
+  <path d="M384 631c-23 10-49 9-78-3l-13 132h152Z" fill="#264743"/>
+  <path d="M293 510c-9 56-12 107 1 126 17-24 22-75 15-127Z" fill="#7a5a4b"/>
+  <path d="M293 626c-12 22-8 47 7 72 18-24 20-52 8-73Z" fill="#d0b45f"/>
+  <path d="M270 702h55v18h-55z" fill="#e8d47e"/>
+  <path d="M290 697v43" stroke="#171c1c" stroke-width="4"/>
+  <path d="M301 622c19 26 34 55 47 86" fill="none" stroke="#f0de8e" stroke-width="8"/>
+  <rect x="343" y="685" width="39" height="54" rx="3" fill="#d7c07d" transform="rotate(8 343 685)"/>
+  <rect x="348" y="691" width="29" height="39" fill="#29494a" transform="rotate(8 348 691)"/>
+  <path d="M117 218c67 5 102 36 111 93" fill="none" stroke="#9ec7b6" stroke-width="2" opacity=".5"/>
+  <path d="M494 536c-68 8-110 34-135 80" fill="none" stroke="#d9bd76" stroke-width="2" opacity=".45"/>
+  <path d="M45 92h92M45 104h46" stroke="#efe5d1" stroke-opacity=".3"/>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" role="img" aria-labelledby="title desc">
+  <title id="title">苏遥角色肖像</title>
+  <desc id="desc">长发扎起的女生穿酒红色外套，胸前挂着相机，目光敏锐。</desc>
+  <defs>
+    <linearGradient id="bgs" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f3437"/>
+      <stop offset=".55" stop-color="#5e4b43"/>
+      <stop offset="1" stop-color="#1d282c"/>
+    </linearGradient>
+    <linearGradient id="skins" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8c2a7"/>
+      <stop offset="1" stop-color="#c98e75"/>
+    </linearGradient>
+    <linearGradient id="coats" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#814c47"/>
+      <stop offset="1" stop-color="#3b2b30"/>
+    </linearGradient>
+    <pattern id="grids" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#efe7d3" stroke-opacity=".065"/>
+    </pattern>
+    <filter id="softs"><feGaussianBlur stdDeviation="19"/></filter>
+  </defs>
+  <rect width="600" height="760" fill="url(#bgs)"/>
+  <rect width="600" height="760" fill="url(#grids)"/>
+  <circle cx="470" cy="170" r="123" fill="#a8c9c2" opacity=".17" filter="url(#softs)"/>
+  <path d="M0 584 600 475v285H0Z" fill="#0c2023" opacity=".64"/>
+  <path d="M38 760c17-145 108-226 258-235 143 5 225 76 264 235Z" fill="url(#coats)"/>
+  <path d="M248 500h104l8 106-58 82-64-74Z" fill="#c18b74"/>
+  <path d="M188 245c8-87 70-140 148-130 84 11 134 75 122 164-9 67-47 111-104 130-61 20-117-7-143-56-19-34-27-71-23-108Z" fill="url(#skins)"/>
+  <path d="M178 250c5-102 70-161 165-152 69 7 115 46 133 108-26-13-51-33-73-61-36 43-89 75-158 90-15 53-42 92-78 115-7-35-9-68 11-100Z" fill="#202124"/>
+  <path d="M156 258c-14 90 11 157 57 202l-1 94c-50-35-80-93-77-174 1-44 8-85 21-122Z" fill="#202124"/>
+  <path d="M418 236c25 72 9 141-38 196l6 77c45-38 67-94 62-167-2-37-12-72-30-106Z" fill="#202124"/>
+  <path d="M145 474c38-23 68-49 86-78 17 44 47 68 88 72 48 2 79-20 99-67 20 34 55 60 98 79l-26 80c-77-28-134-24-188 1-51-23-107-26-159-9Z" fill="#202124"/>
+  <path d="M232 276c16-10 36-10 54 0" fill="none" stroke="#6e3b36" stroke-width="7" stroke-linecap="round"/>
+  <path d="M330 275c17-9 35-8 50 2" fill="none" stroke="#6e3b36" stroke-width="7" stroke-linecap="round"/>
+  <path d="M238 311c11-8 27-8 39 0-11 12-27 12-39 0Z" fill="#1c292c"/>
+  <path d="M336 311c11-8 27-7 38 1-10 11-25 11-38-1Z" fill="#1c292c"/>
+  <circle cx="258" cy="311" r="3.3" fill="#f1ead8"/>
+  <circle cx="354" cy="311" r="3.1" fill="#f1ead8"/>
+  <path d="M294 307c-3 30-1 54 7 67 8 5 17 4 26-2" fill="none" stroke="#a56b5c" stroke-width="5" stroke-linecap="round"/>
+  <path d="M263 400c20 15 45 16 68 1-14 25-52 28-68-1Z" fill="#8f4c4e"/>
+  <path d="M273 402c18 7 35 7 51 0" fill="none" stroke="#da9d91" stroke-width="3"/>
+  <path d="M204 532c38-24 72-28 108-14l-12 88-106 10Z" fill="#ddd5c2"/>
+  <path d="M389 533c-34-24-68-28-104-14l11 88 107 14Z" fill="#ddd5c2"/>
+  <path d="M193 582c-18 54-14 112 10 178h128l-31-164-62-69Z" fill="url(#coats)"/>
+  <path d="M402 581c20 56 16 116-9 179H265l33-163 64-71Z" fill="url(#coats)"/>
+  <path d="M254 549c33 19 68 21 101 2" fill="none" stroke="#e0c68f" stroke-width="3" opacity=".6"/>
+  <path d="M269 565c-16 58-15 121 1 190M332 566c17 58 17 121 1 189" fill="none" stroke="#1e2427" stroke-width="11"/>
+  <rect x="248" y="640" width="108" height="75" rx="10" fill="#1a282b" stroke="#87a29b" stroke-width="3"/>
+  <circle cx="302" cy="678" r="27" fill="#243b3e" stroke="#9ab4ad" stroke-width="4"/>
+  <circle cx="302" cy="678" r="15" fill="#10191c"/>
+  <path d="M335 647h18v20h-18zM235 656h20v15h-20z" fill="#b7a26e"/>
+  <path d="M83 124h94M83 137h48" stroke="#efe7d3" stroke-opacity=".3"/>
+  <path d="M476 636c-35 15-75 19-120 12" stroke="#a8c8bf" stroke-width="2" opacity=".4"/>
+</svg>

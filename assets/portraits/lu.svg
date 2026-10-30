@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" role="img" aria-labelledby="title desc">
+  <title id="title">陆师傅角色肖像</title>
+  <desc id="desc">穿深蓝色制服的校园门卫，戴帽子，表情温和。</desc>
+  <defs>
+    <linearGradient id="bglu" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1a3235"/><stop offset=".6" stop-color="#4d4b3f"/><stop offset="1" stop-color="#101c20"/></linearGradient>
+    <linearGradient id="skinlu" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d4ad8f"/><stop offset="1" stop-color="#a4715d"/></linearGradient>
+    <pattern id="gridlu" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#eee6d2" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="600" height="760" fill="url(#bglu)"/><rect width="600" height="760" fill="url(#gridlu)"/>
+  <path d="M0 598 600 480v280H0Z" fill="#0b1a1d" opacity=".64"/>
+  <path d="M35 760c23-139 118-219 266-226 150 7 242 81 265 226Z" fill="#273f43"/>
+  <path d="M250 500h100l6 98-55 80-61-72Z" fill="#a87660"/>
+  <path d="M198 246c8-83 70-132 145-120 78 12 122 74 112 156-8 68-52 111-109 128-63 18-117-9-139-61-14-33-17-69-9-103Z" fill="url(#skinlu)"/>
+  <path d="M173 251c-7-45 14-88 51-111 39-25 92-27 135-4 39 20 64 54 71 96-57-3-100-23-127-59-33 33-74 51-123 55-1 31-4 56-14 76-5-18-2-34 7-53Z" fill="#24282a"/>
+  <path d="M172 142c17-46 62-74 118-74 65 0 117 35 134 89-34-20-73-30-118-31-52-1-98 8-134 16Z" fill="#253d43"/>
+  <path d="M168 147c42-25 92-36 149-34 61 2 109 16 139 43l-14 27c-38-23-80-34-128-37-53-3-99 7-135 28Z" fill="#31535a"/>
+  <circle cx="313" cy="135" r="15" fill="#b59a62"/>
+  <path d="M229 286c17-9 38-8 56 0M329 288c18-9 39-8 56 1" fill="none" stroke="#5e3932" stroke-width="8" stroke-linecap="round"/>
+  <path d="M241 319c11-7 26-6 38 2-10 11-25 11-38-2ZM340 321c11-7 26-6 37 1-10 10-25 10-37-1Z" fill="#1d282a"/>
+  <circle cx="260" cy="320" r="3" fill="#eee5d3"/><circle cx="359" cy="322" r="3" fill="#eee5d3"/>
+  <path d="M298 308c-6 31-4 56 4 70 8 6 18 5 27-1" fill="none" stroke="#8c5b4c" stroke-width="5" stroke-linecap="round"/>
+  <path d="M258 405c23 11 51 11 76-1-13 24-59 28-76 1Z" fill="#71403e"/>
+  <path d="M230 383c20 39 70 49 108 18" fill="none" stroke="#7f5b4f" stroke-width="3" opacity=".55"/>
+  <path d="M207 536c35-24 69-29 103-15l-9 88-110 5Z" fill="#cbd1c9"/>
+  <path d="M389 538c-33-23-66-28-99-15l9 87 108 8Z" fill="#cbd1c9"/>
+  <path d="M193 584c-13 52-7 111 18 176h125l-34-160-62-72Z" fill="#2e484c"/>
+  <path d="M407 583c16 54 9 115-18 177H264l34-159 65-74Z" fill="#2e484c"/>
+  <path d="M217 635l51 18-9 23-51-17ZM348 655l51-18 8 25-51 17Z" fill="#b5a36d" opacity=".36"/>
+  <path d="M89 119h90M89 132h54" stroke="#eee6d2" stroke-opacity=".3"/>
+  <path d="M478 640c-55 24-113 31-174 20" stroke="#c9a56d" stroke-width="2" opacity=".4"/>
+</svg>

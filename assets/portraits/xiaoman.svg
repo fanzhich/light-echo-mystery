@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" role="img" aria-labelledby="title desc">
+  <title id="title">林小满角色肖像</title>
+  <desc id="desc">年轻的校园志愿者戴鸭舌帽、穿橙色工作马甲，抱着记录板。</desc>
+  <defs>
+    <linearGradient id="bgxm" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#18383a"/><stop offset=".55" stop-color="#77553c"/><stop offset="1" stop-color="#152529"/></linearGradient>
+    <linearGradient id="skinxm" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e7c1a5"/><stop offset="1" stop-color="#c58b70"/></linearGradient>
+    <pattern id="gridxm" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#efe7d2" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="600" height="760" fill="url(#bgxm)"/><rect width="600" height="760" fill="url(#gridxm)"/>
+  <path d="M0 602 600 478v282H0Z" fill="#0d2023" opacity=".63"/>
+  <path d="M36 760c18-141 112-222 263-231 151 6 244 82 267 231Z" fill="#314b4b"/>
+  <path d="M251 501h99l7 102-55 78-62-74Z" fill="#c28a71"/>
+  <path d="M192 244c8-86 71-137 149-126 81 11 126 75 115 158-9 65-51 108-109 125-64 17-118-10-141-62-14-32-18-64-14-95Z" fill="url(#skinxm)"/>
+  <path d="M184 229c20-87 88-136 163-114 42 12 76 40 94 79-47-14-92-7-136 20-33 20-59 49-79 85-9-22-9-46 1-70Z" fill="#28272a"/>
+  <path d="M176 142c28-49 82-78 145-78 70 0 123 34 151 89-39-20-84-29-134-29-58 0-109 7-162 18Z" fill="#c8784b"/>
+  <path d="M168 147c46-25 96-35 154-34 62 1 113 16 151 45l-12 25c-44-22-91-34-141-36-57-2-107 6-148 27Z" fill="#e39b61"/>
+  <path d="M229 279c16-9 37-8 54 1M330 280c18-9 38-8 54 2" fill="none" stroke="#673d35" stroke-width="7" stroke-linecap="round"/>
+  <path d="M241 312c11-8 27-7 40 1-11 12-27 12-40-1ZM339 313c11-8 26-7 38 1-9 11-25 11-38-1Z" fill="#1d2a2c"/>
+  <circle cx="260" cy="313" r="3" fill="#efe7d5"/><circle cx="358" cy="314" r="3" fill="#efe7d5"/>
+  <path d="M298 308c-5 29-3 54 4 68 8 5 18 4 27-2" fill="none" stroke="#a36b5a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M263 398c19 15 44 16 67 1-15 24-53 27-67-1Z" fill="#954f4e"/>
+  <path d="M271 401c17 7 35 7 50 0" fill="none" stroke="#da9e92" stroke-width="3"/>
+  <circle cx="230" cy="348" r="2.5" fill="#b97262" opacity=".65"/><circle cx="241" cy="356" r="2" fill="#b97262" opacity=".58"/><circle cx="350" cy="348" r="2.5" fill="#b97262" opacity=".65"/>
+  <path d="M203 535c36-26 72-31 107-15l-10 88-111 7Z" fill="#ded7c7"/>
+  <path d="M389 536c-34-25-69-29-103-15l9 87 109 10Z" fill="#ded7c7"/>
+  <path d="M190 586c-14 49-7 108 18 174h124l-32-160-64-73Z" fill="#ca754c"/>
+  <path d="M406 586c17 53 10 112-18 174H264l33-158 65-77Z" fill="#ca754c"/>
+  <path d="M301 524v148" stroke="#f0d99c" stroke-width="8" opacity=".65"/>
+  <rect x="276" y="575" width="99" height="121" rx="5" fill="#e9dfc8" transform="rotate(-7 276 575)"/>
+  <path d="M296 599h56M291 618h63M286 637h67" stroke="#8f8e82" stroke-width="4" opacity=".55"/>
+  <path d="M87 123h93M87 136h51" stroke="#efe7d2" stroke-opacity=".3"/>
+  <path d="M476 645c-56 22-118 28-183 15" stroke="#d2ac72" stroke-width="2" opacity=".42"/>
+</svg>
